@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Frijole';
+  src: url(Frijole-Regular.ttf);
+}
+@font-face {
+  font-family: 'Sriracha';
+  src: url(Sriracha-Regular.ttf);
+}
+body {
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+    background: linear-gradient(67.18deg, rgba(127, 222, 255, 0.6) -0.45%, rgba(129, 221, 255, 0.47) -0.44%, rgba(150, 215, 255, 0.16) 24.42%, rgba(218, 191, 255, 0.32) 58.6%, rgba(234, 186, 246, 0.39) 82.85%, rgba(249, 180, 237, 0.39) 99.47%);
+ }
+ nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ a {
+  text-decoration: none;
+  color: #964A7A;
+  padding: 10px;
+  font-family: 'Sriracha';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 42px;
+font-family: sans-serif;
+margin-right: 20px;
+
+ }
+
+ img {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+ }
+  .soap {
+    padding: 30px;
+    font-family: 'Frijole';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 66px;
+
+background: linear-gradient(180deg, #88C2E6 12.68%, #D97ABA 69.22%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+p {
+  width: 570px;
+height: 192px;
+font-family: 'Sriracha';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 54px;
+letter-spacing: 0.08em;
+color: #964A7A;
+margin-left:80px;
+font-family: sans-serif;
+}
+button {
+  width: 280px;
+height: 67px;
+font-family: 'Sriracha';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 47px;
+/* identical to box height */
+margin-left:80px;
+letter-spacing: 0.01em;
+font-family: sans-serif;
+color: #FFFFFF;
+background: #E574BC;
+border: 1px solid #EF94D5;
+box-shadow: 0px 4px 4px rgba(239, 148, 213, 0.72);
+border-radius: 100px;
+padding: 10px;
+}
